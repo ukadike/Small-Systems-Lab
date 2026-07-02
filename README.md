@@ -16,23 +16,25 @@ SSL builds systems around five linked practices:
 
 ## Branches
 
-### Omoluabi
-Editorial intelligence for civic documentation, consent-aware reporting, provenance, accessibility, and human-governed publishing.
+Six branches, in different stages of development. See also [`docs/branches.md`](docs/branches.md).
 
-### Earth Sensors Lab
-Accessible STEAM observatory for young people, families, educators, gardens, climate sensing, and interstellar curiosity.
+### [Omoluabi](https://ukadike.github.io/omoluabi/)
+Editorial intelligence for civic documentation, consent-aware reporting, provenance, accessibility, and human-governed publishing. Repo: [github.com/ukadike/omoluabi](https://github.com/ukadike/omoluabi).
 
-### Echo
-AI literacy, creative technology education, prompts, workshops, public learning, and accessible AI practice.
+### [Earth Sensors Lab](https://ukadike.github.io/earth-sensors-lab/)
+Accessible STEAM observatory for young people, families, educators, gardens, climate sensing, and interstellar curiosity. Repo: [github.com/ukadike/Earth-Sensors-Lab](https://github.com/ukadike/Earth-Sensors-Lab).
+
+### [Echo](https://ukadike.github.io/echo/)
+AI literacy, creative technology education, prompts, workshops, public learning, and accessible AI practice. Repo: [github.com/ukadike/Echo](https://github.com/ukadike/Echo).
 
 ### Ounjẹ
-Food memory, healing recipes, cultural documentation, and cooking as archive.
+Food memory, healing recipes, cultural documentation, and cooking as archive. In development — no repo or site yet.
 
-### Umada
-Speculative worldbuilding, future history, systems collapse, language memory, chimeras, cyborgs, civic signs, and the Omoluabi device as narrative artifact.
+### [Umada](https://ukadike.github.io/umada/)
+Speculative worldbuilding, future history, systems collapse, language memory, chimeras, cyborgs, civic signs, and the Omoluabi device as narrative artifact. Repo: [github.com/ukadike/Umada](https://github.com/ukadike/Umada).
 
 ### Accessible by Design
-Accessibility research, audits, tooling, documentation, and public-facing design principles.
+Accessibility research, audits, tooling, documentation, and public-facing design principles. No live site yet. Repo: [github.com/ukadike/accessible-by-design-prototyping](https://github.com/ukadike/accessible-by-design-prototyping).
 
 ## System Questions
 
@@ -49,23 +51,44 @@ Every SSL project asks:
 - What geometry or pattern helps people understand the system?
 - What happens when the system fails?
 
+## Documentation
+
+- [`docs/ssl-method.md`](docs/ssl-method.md) — the care-centered systems method
+- [`docs/operations.md`](docs/operations.md) — Operations of Care
+- [`docs/rule-based-intelligence.md`](docs/rule-based-intelligence.md) — Rule-Based Intelligence
+- [`docs/ancient-geometry.md`](docs/ancient-geometry.md) — Ancient Geometry as Interface Logic
+- [`docs/accessibility.md`](docs/accessibility.md) — Accessibility as Architecture
+- [`docs/branches.md`](docs/branches.md) — branch-by-branch descriptions
+- [`INDEX.md`](INDEX.md) — full sitemap of this repo and the SSL ecosystem
+- [`SCHEMA_CARD.md`](SCHEMA_CARD.md) — quick-orientation card for contributors and code agents
+- [`docs/REPO_AUDIT.md`](docs/REPO_AUDIT.md) — structure/navigation/accessibility audit
+
 ## Repository Structure
 
 ```text
 /
 ├── README.md
+├── INDEX.md
+├── SCHEMA_CARD.md
 ├── index.html
+├── site.css
+├── variables.css
+├── .nojekyll
 ├── docs/
 │   ├── ssl-method.md
 │   ├── operations.md
 │   ├── rule-based-intelligence.md
 │   ├── ancient-geometry.md
 │   ├── accessibility.md
-│   └── branches.md
-├── assets/
+│   ├── branches.md
+│   └── REPO_AUDIT.md
 └── claude/
     └── CLAUDE_HANDOFF.md
 ```
+
+Note: earlier versions of this README referenced an `assets/` directory; no such
+directory currently exists in the repository. Removed from the structure listing above
+to keep this file in sync with reality — see `docs/REPO_AUDIT.md`.
 
 ## Suggested GitHub Pages Tagline
 
