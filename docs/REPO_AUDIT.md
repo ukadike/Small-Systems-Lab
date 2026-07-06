@@ -220,3 +220,24 @@ inconsistency first) or extracts the useful pieces (contrast fix, SEO meta).
 - Created root `INDEX.md` (repo sitemap + full ecosystem directory table).
 - Created root `SCHEMA_CARD.md` (orientation card for contributors/code agents).
 - This audit file.
+
+## Update — ecosystem navigation audit pass (`claude/ukadike-github-nav-audit-9yq9ft`)
+
+Resolves several items flagged above:
+
+- **Accessible by Design now has a live GitHub Pages site**
+  (`https://ukadike.github.io/accessible-by-design-prototyping/`). All "No live site
+  yet" references to it across `README.md`, `index.html`, `INDEX.md`, and
+  `SCHEMA_CARD.md` have been replaced with links to the live site.
+- **The parallel `claude/github-pages-navigation-links-6t45r6` branch has been merged**
+  into this repo (primary nav header, `/sitemap/` page, SEO meta tags, `robots.txt`,
+  `sitemap.xml`, and the `--color-muted` WCAG AA contrast fix). The merged nav and
+  `/sitemap/` page were additionally extended to include Accessible by Design, and the
+  `target="_blank"` inconsistency noted above was left as-is intentionally: only the
+  external `github.com/ukadike` link opens in a new tab (with a visible
+  "opens in a new tab" cue); all in-ecosystem links (Omoluabi, Earth Sensors Lab, Echo,
+  Umada, Accessible by Design, Sitemap) stay same-tab, matching the ecosystem-wide
+  navigation convention adopted in this pass.
+- Ounjẹ remains unlinked and in development — no repository exists to link yet.
+- See ecosystem-level `SITE_MAP.md` and `docs/NAVIGATION_AUDIT.md` (added in this same
+  pass) for the full cross-repo link audit.

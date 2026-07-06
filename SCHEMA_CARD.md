@@ -94,8 +94,8 @@ the rest of the SSL ecosystem's framework-free static sites.
   history, systems collapse, language memory, civic signs, the Omoluabi device as
   narrative artifact. Live site: <https://ukadike.github.io/umada/>.
 - **[Accessible by Design / Accessibility Audit Lab](https://github.com/ukadike/accessible-by-design-prototyping)**
-  — WCAG 2.2+ auditing toolkit for websites, p5.js sketches, and PDFs. No GitHub Pages
-  deployment found at time of this audit (see `docs/REPO_AUDIT.md`).
+  — WCAG 2.2+ auditing toolkit for websites, p5.js sketches, and PDFs. Live site:
+  <https://ukadike.github.io/accessible-by-design-prototyping/>.
 - **Ounjẹ** — food memory, healing recipes, cultural documentation, cooking as archive.
   In development; no public repository found at time of this audit.
 
@@ -115,9 +115,12 @@ No images currently in the site, so no outstanding alt-text gaps. See
 - `docs/` has no dedicated file for "Public Knowledge Stewardship" (the fifth method
   practice named in `README.md`/`index.html`) — flagged in `docs/REPO_AUDIT.md`, needs
   Kemi review on whether to add one.
-- Ounjẹ and Accessible by Design have no live GitHub Pages sites yet; their `index.html`
-  cards should be updated to `.btn` links once sites exist.
-- A parallel, unmerged branch on this repo (`claude/github-pages-navigation-links-6t45r6`)
-  already adds a primary nav header, a `/sitemap/` page, SEO meta tags, `robots.txt`,
-  `sitemap.xml`, and a WCAG-AA contrast fix to `--color-muted`. Not merged as part of
-  this pass — flagged for Kemi review in `docs/REPO_AUDIT.md`.
+- Ounjẹ has no live GitHub Pages site yet and no public repository; its `index.html`
+  card should be updated to a `.btn` link once one exists. Accessible by Design now has
+  a live site and has been linked accordingly.
+- The parallel branch `claude/github-pages-navigation-links-6t45r6` (primary nav header,
+  `/sitemap/` page, SEO meta tags, `robots.txt`, `sitemap.xml`, WCAG-AA contrast fix) has
+  been merged into this repo as part of the ecosystem-wide navigation audit
+  (`claude/ukadike-github-nav-audit-9yq9ft`). The merged `/sitemap/` page and primary nav
+  were extended to include Accessible by Design, which didn't exist when that branch was
+  originally written.
