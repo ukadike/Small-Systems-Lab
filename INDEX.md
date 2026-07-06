@@ -8,8 +8,11 @@ Small Systems Lab (SSL) ecosystem. Start at [`README.md`](README.md) if you have
 
 - [`README.md`](README.md) — project overview, method, branches, repository structure
 - [`index.html`](index.html) — the live GitHub Pages site (hub homepage)
+- [`sitemap/`](sitemap/) — HTML sitemap page linking every branch and page in the ecosystem
+- [`SITE_MAP.md`](SITE_MAP.md) — ecosystem-wide site map (markdown) across all public sites and READMEs
 - [`SCHEMA_CARD.md`](SCHEMA_CARD.md) — quick-orientation card for contributors and code agents
 - [`docs/REPO_AUDIT.md`](docs/REPO_AUDIT.md) — structure/navigation/accessibility audit
+- [`docs/NAVIGATION_AUDIT.md`](docs/NAVIGATION_AUDIT.md) — ecosystem-wide navigation audit
 - [`site.css`](site.css) — layout glue (locked visual system: layout only)
 - [`variables.css`](variables.css) — design tokens and components (locked visual system: source of truth)
 - [`claude/CLAUDE_HANDOFF.md`](claude/CLAUDE_HANDOFF.md) — original build brief for this site

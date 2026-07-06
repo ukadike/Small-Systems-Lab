@@ -60,8 +60,10 @@ Every SSL project asks:
 - [`docs/accessibility.md`](docs/accessibility.md) — Accessibility as Architecture
 - [`docs/branches.md`](docs/branches.md) — branch-by-branch descriptions
 - [`INDEX.md`](INDEX.md) — full sitemap of this repo and the SSL ecosystem
+- [`SITE_MAP.md`](SITE_MAP.md) — ecosystem-wide site map across all public sites and READMEs
 - [`SCHEMA_CARD.md`](SCHEMA_CARD.md) — quick-orientation card for contributors and code agents
 - [`docs/REPO_AUDIT.md`](docs/REPO_AUDIT.md) — structure/navigation/accessibility audit
+- [`docs/NAVIGATION_AUDIT.md`](docs/NAVIGATION_AUDIT.md) — ecosystem-wide navigation audit
 
 ## Repository Structure
 
