@@ -35,7 +35,7 @@ its own site footer.
 | Earth Sensors Lab | [ukadike.github.io/earth-sensors-lab](https://ukadike.github.io/earth-sensors-lab/) | [github.com/ukadike/Earth-Sensors-Lab](https://github.com/ukadike/Earth-Sensors-Lab) | Live |
 | Echo | [ukadike.github.io/echo](https://ukadike.github.io/echo/) | [github.com/ukadike/Echo](https://github.com/ukadike/Echo) | Live |
 | Umada | [ukadike.github.io/umada](https://ukadike.github.io/umada/) | [github.com/ukadike/Umada](https://github.com/ukadike/Umada) | Live |
-| Accessible by Design (Accessibility Audit Lab) | No live site yet | [github.com/ukadike/accessible-by-design-prototyping](https://github.com/ukadike/accessible-by-design-prototyping) | Toolkit in development, no GitHub Pages deployment found |
+| Accessible by Design (Accessibility Audit Lab) | [ukadike.github.io/accessible-by-design-prototyping](https://ukadike.github.io/accessible-by-design-prototyping/) | [github.com/ukadike/accessible-by-design-prototyping](https://github.com/ukadike/accessible-by-design-prototyping) | Live |
 | Ounjẹ | No live site yet | No public repository found | In development |
 
 See [`docs/REPO_AUDIT.md`](docs/REPO_AUDIT.md) for how this table was verified and what

@@ -33,8 +33,8 @@ Food memory, healing recipes, cultural documentation, and cooking as archive. In
 ### [Umada](https://ukadike.github.io/umada/)
 Speculative worldbuilding, future history, systems collapse, language memory, chimeras, cyborgs, civic signs, and the Omoluabi device as narrative artifact. Repo: [github.com/ukadike/Umada](https://github.com/ukadike/Umada).
 
-### Accessible by Design
-Accessibility research, audits, tooling, documentation, and public-facing design principles. No live site yet. Repo: [github.com/ukadike/accessible-by-design-prototyping](https://github.com/ukadike/accessible-by-design-prototyping).
+### [Accessible by Design](https://ukadike.github.io/accessible-by-design-prototyping/)
+Accessibility research, audits, tooling, documentation, and public-facing design principles — a no-code WCAG 2.2+ audit tool for websites, p5.js sketches, and PDFs. Repo: [github.com/ukadike/accessible-by-design-prototyping](https://github.com/ukadike/accessible-by-design-prototyping).
 
 ## System Questions
 
