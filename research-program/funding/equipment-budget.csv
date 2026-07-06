@@ -1,0 +1,14 @@
+category,item,quantity,estimated_unit_cost,estimated_total,notes
+Arduino,Arduino Uno R4 or compatible,15,30,450,Starter boards
+Arduino,Breadboard kit,15,15,225,Wires/resistors/buttons
+Sensors,Soil moisture sensors,15,5,75,Earth Sensors Lab
+Sensors,DHT22 temp/humidity sensors,15,8,120,Weather/classroom
+Sensors,Air quality sensors,8,25,200,Environmental observation
+Outputs,Small speakers/buzzers,15,5,75,Sonification
+Outputs,Vibration motors,15,4,60,Haptic output
+Displays,OLED displays,10,12,120,Local display
+Power,Battery packs,10,20,200,Portable field kits
+Power,Small solar panels,6,35,210,Renewable power demo
+Accessibility,Large adaptive switches,10,25,250,Accessible input
+Storage,Project bins,15,8,120,Student kits
+Documentation,Labels/tactile materials,1,150,150,Accessible documentation

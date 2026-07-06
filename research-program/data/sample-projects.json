@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "title": "Sonified Soil Sensor",
+      "research_program": "Earth Sensors Lab",
+      "problem": "Environmental data is often presented visually only.",
+      "prototype": "Arduino soil sensor with p5.js sonification dashboard.",
+      "status": "prototype"
+    },
+    {
+      "title": "Accessible Civic Briefing",
+      "research_program": "Accessible Civic Intelligence / Omoluabi",
+      "problem": "Civic information is often inaccessible, unsourced, or difficult to verify.",
+      "prototype": "Human-reviewed civic briefing interface with provenance fields.",
+      "status": "concept"
+    }
+  ]
+}

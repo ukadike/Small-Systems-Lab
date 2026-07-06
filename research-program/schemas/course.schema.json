@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Course",
+  "type": "object",
+  "required": [
+    "title",
+    "level",
+    "description",
+    "learning_outcomes",
+    "weekly_schedule"
+  ],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "level": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "learning_outcomes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "weekly_schedule": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "assignments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "hardware": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "software": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "accessibility": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

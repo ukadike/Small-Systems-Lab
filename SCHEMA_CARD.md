@@ -67,6 +67,14 @@ SSL builds systems around five linked practices, documented in `docs/`:
   redefine tokens. No build step, no JavaScript.
 - **Documentation layer** — plain Markdown in `docs/`, `README.md`, `INDEX.md`,
   `SCHEMA_CARD.md`, read by humans and by code/steward agents.
+- **Research program** — `research/` holds public HTML pages built on the same locked
+  `variables.css`/`site.css` tokens (no separate stylesheet, no JavaScript). The full
+  PhD-level research architecture — theory, methodology, ethics/IRB templates,
+  evaluation framework, curriculum, JSON schemas, and Arduino/p5.js code starters — lives
+  in `research-program/`, entry point `research-program/00_START_HERE.md`. The Arduino
+  sketches and p5.js dashboard in `research-program/code/` are standalone teaching/demo
+  code, not part of the deployed static site, and may use external CDN scripts (p5.js)
+  where the main site does not.
 
 ## Inputs / Outputs
 

@@ -1,0 +1,100 @@
+{
+  "programs": [
+    {
+      "name": "Accessible Civic Intelligence / Omoluabi",
+      "purpose": "Research responsible AI, journalism, civic technology, multilingual communication, accessibility, transparency, provenance, public trust, and democratic participation.",
+      "research_questions": [
+        "How can AI support civic understanding without replacing human judgment?",
+        "How can provenance and source transparency become accessible interface features?",
+        "How can civic information systems serve multilingual and disabled publics?"
+      ],
+      "methods": [
+        "interface prototyping",
+        "source provenance modeling",
+        "civic scenario testing",
+        "accessibility review",
+        "editorial workflow analysis"
+      ],
+      "example_projects": [
+        "AI-assisted civic briefing system",
+        "accessible public meeting summarizer",
+        "local news verification dashboard",
+        "blind-editor accessible newsroom interface"
+      ]
+    },
+    {
+      "name": "Earth Sensors Lab",
+      "purpose": "Research accessible environmental observation using Arduino, ESP32, Raspberry Pi, and open hardware.",
+      "research_questions": [
+        "How can low-cost sensing support community science?",
+        "How can environmental data become accessible through sound, touch, and plain language?",
+        "How can students learn climate and systems thinking through physical computing?"
+      ],
+      "methods": [
+        "Arduino prototyping",
+        "field observation",
+        "data visualization",
+        "sonification",
+        "community science workshops",
+        "accessibility review"
+      ],
+      "example_projects": [
+        "Arduino soil moisture observatory",
+        "accessible classroom weather station",
+        "sonified plant sensor",
+        "tactile climate dashboard"
+      ]
+    },
+    {
+      "name": "Accessible by Design",
+      "purpose": "Research accessibility as a creative methodology rather than a compliance requirement.",
+      "research_questions": [
+        "What design practices emerge when accessibility is present from the first sketch?",
+        "How do students understand access differently after testing with real users?",
+        "How can accessibility documentation become part of creative practice?"
+      ],
+      "methods": [
+        "accessibility audits",
+        "user testing",
+        "inclusive design workshops",
+        "screen reader testing",
+        "keyboard-only testing",
+        "cognitive walkthroughs"
+      ],
+      "example_projects": []
+    },
+    {
+      "name": "Physical Computing Studio",
+      "purpose": "Research tangible interaction through electronics, fabrication, robotics, embedded systems, creative coding, interactive media, and computational art.",
+      "research_questions": [
+        "How can physical computing support embodied learning?",
+        "How can tangible systems become more accessible?",
+        "How can low-power and repairable systems inform public-interest technology?"
+      ],
+      "methods": [],
+      "example_projects": []
+    },
+    {
+      "name": "Learning Systems and STEAM Education",
+      "purpose": "Research inclusive creative technology education for learners of all ages.",
+      "research_questions": [
+        "How can Arduino and p5.js support accessible STEAM learning?",
+        "How can teacher tools reduce barriers to creative technology education?",
+        "What does inclusive informal learning look like in museums, libraries, and community spaces?"
+      ],
+      "methods": [],
+      "example_projects": []
+    },
+    {
+      "name": "Speculative Systems Research / UMADA",
+      "purpose": "Research world-building, narrative prototyping, futures thinking, disability futures, civic imagination, ethics, and governance.",
+      "research_questions": [
+        "How can speculative fiction function as a research environment?",
+        "How can narrative prototypes help students evaluate emerging technologies?",
+        "How can future worlds reveal present-day assumptions about disability, governance, and infrastructure?"
+      ],
+      "methods": [],
+      "example_projects": []
+    }
+  ]
+}

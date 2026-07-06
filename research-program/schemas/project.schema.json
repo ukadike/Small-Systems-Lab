@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Project",
+  "type": "object",
+  "required": [
+    "title",
+    "research_program",
+    "problem",
+    "prototype"
+  ],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "research_program": {
+      "type": "string"
+    },
+    "problem": {
+      "type": "string"
+    },
+    "community_context": {
+      "type": "string"
+    },
+    "prototype": {
+      "type": "string"
+    },
+    "hardware": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "software": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "accessibility_features": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "enum": [
+        "concept",
+        "prototype",
+        "pilot",
+        "published",
+        "archived"
+      ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Accessibility Review",
+  "type": "object",
+  "properties": {
+    "keyboard": {
+      "type": "string"
+    },
+    "screen_reader": {
+      "type": "string"
+    },
+    "contrast": {
+      "type": "string"
+    },
+    "captions_transcripts": {
+      "type": "string"
+    },
+    "alt_text": {
+      "type": "string"
+    },
+    "plain_language": {
+      "type": "string"
+    },
+    "cognitive_access": {
+      "type": "string"
+    },
+    "physical_access": {
+      "type": "string"
+    },
+    "known_barriers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "next_fixes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
