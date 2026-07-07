@@ -19,7 +19,7 @@ SSL builds systems around five linked practices:
 Six branches, in different stages of development. See also [`docs/branches.md`](docs/branches.md).
 
 ### [Omoluabi](https://ukadike.github.io/omoluabi/)
-Editorial intelligence for civic documentation, consent-aware reporting, provenance, accessibility, and human-governed publishing. Repo: [github.com/ukadike/omoluabi](https://github.com/ukadike/omoluabi).
+Editorial intelligence for civic documentation, consent-aware reporting, provenance, accessibility, and human-governed publishing. Repo: [github.com/ukadike/omoluabi](https://github.com/ukadike/omoluabi). Its first live implementation is [Omoluabi News](https://ukadike.github.io/omoluabi-news/) ([repo](https://github.com/ukadike/omoluabi-news)), an accessible newsroom with a visible editorial reasoning engine.
 
 ### [Earth Sensors Lab](https://ukadike.github.io/earth-sensors-lab/)
 Accessible STEAM observatory for young people, families, educators, gardens, climate sensing, and interstellar curiosity. Repo: [github.com/ukadike/Earth-Sensors-Lab](https://github.com/ukadike/Earth-Sensors-Lab).

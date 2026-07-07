@@ -1,7 +1,7 @@
 # SSL Branches
 
 ## Omoluabi
-Editorial intelligence, civic documentation, consent, provenance, public knowledge, and the reporter's notebook as future archive.
+Editorial intelligence, civic documentation, consent, provenance, public knowledge, and the reporter's notebook as future archive. First live implementation: [Omoluabi News](https://ukadike.github.io/omoluabi-news/).
 
 ## Earth Sensors Lab
 Accessible environmental sensing, school-based STEAM, gardens, climate, soil, weather, sonification, and interstellar curiosity.
