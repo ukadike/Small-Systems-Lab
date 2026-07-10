@@ -82,7 +82,7 @@ build brief for agents, not visitor-facing content); it is now indexed from `IND
   Pages site to confirm casing directly, but an unmerged sibling branch on this same
   repository, `claude/github-pages-navigation-links-6t45r6` (see below), independently
   made the same lowercase fix. **Fixed:** changed the link to
-  `https://ukadike.github.io/umada/` for consistency with the rest of this file's
+  `https://ukadike.github.io/Umada/` for consistency with the rest of this file's
   established convention.
 - **Ounjẹ**: remains unlinked, "In development — no site yet." No public repository for
   Ounjẹ was found among the sibling repositories checked during this pass. Left
@@ -97,7 +97,7 @@ internally consistent after the fixes above.
 Checked out sibling repositories directly (`Umada`, `Echo`, `Earth-Sensors-Lab`,
 `omoluabi`, `accessible-by-design-prototyping`) and confirmed each live one already
 links back to this hub via its own site footer, using the lowercase form
-`https://ukadike.github.io/small-systems-lab/` (Earth Sensors Lab's footer link is the
+`https://ukadike.github.io/Small-Systems-Lab/` (Earth Sensors Lab's footer link is the
 one exception, still using `Small-Systems-Lab` with capital letters — **Needs Kemi
 review**: that fix belongs in the Earth Sensors Lab repository, out of scope for this
 pass, but is noted here for the ecosystem-wide effort). `accessible-by-design-
@@ -207,7 +207,7 @@ inconsistency first) or extracts the useful pieces (contrast fix, SEO meta).
 ## Completed changes (this pass)
 
 - Fixed the Umada Pages link casing in `index.html` to lowercase
-  (`https://ukadike.github.io/umada/`), matching the established convention for
+  (`https://ukadike.github.io/Umada/`), matching the established convention for
   Omoluabi/Earth Sensors Lab/Echo.
 - Added a working link (to the GitHub repository) for Accessible by Design in
   `index.html`, replacing the previously unlinked card.

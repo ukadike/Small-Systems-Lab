@@ -86,13 +86,13 @@ the rest of the SSL ecosystem's framework-free static sites.
   publishing. Live site: <https://ukadike.github.io/omoluabi/>.
 - **[Earth Sensors Lab](https://github.com/ukadike/Earth-Sensors-Lab)** — accessible
   STEAM observatory for young people, families, educators, gardens, climate sensing.
-  Live site: <https://ukadike.github.io/earth-sensors-lab/>.
+  Live site: <https://ukadike.github.io/Earth-Sensors-Lab/>.
 - **[Echo](https://github.com/ukadike/Echo)** — AI literacy, creative technology
   education, prompts, workshops, public learning. Live site:
-  <https://ukadike.github.io/echo/>.
+  <https://ukadike.github.io/Echo/>.
 - **[Umada](https://github.com/ukadike/Umada)** — speculative worldbuilding, future
   history, systems collapse, language memory, civic signs, the Omoluabi device as
-  narrative artifact. Live site: <https://ukadike.github.io/umada/>.
+  narrative artifact. Live site: <https://ukadike.github.io/Umada/>.
 - **[Accessible by Design / Accessibility Audit Lab](https://github.com/ukadike/accessible-by-design-prototyping)**
   — WCAG 2.2+ auditing toolkit for websites, p5.js sketches, and PDFs. No GitHub Pages
   deployment found at time of this audit (see `docs/REPO_AUDIT.md`).
@@ -100,7 +100,7 @@ the rest of the SSL ecosystem's framework-free static sites.
   In development; no public repository found at time of this audit.
 
 Every branch above with a live site links back to this hub
-(`https://ukadike.github.io/small-systems-lab/`) from its own site footer.
+(`https://ukadike.github.io/Small-Systems-Lab/`) from its own site footer.
 
 ## Accessibility considerations
 

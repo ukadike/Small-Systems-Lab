@@ -26,16 +26,16 @@ Small Systems Lab (SSL) ecosystem. Start at [`README.md`](README.md) if you have
 ## The Small Systems Lab ecosystem
 
 Small Systems Lab is the hub. Every branch below links back to
-[ukadike.github.io/small-systems-lab](https://ukadike.github.io/small-systems-lab/) from
+[ukadike.github.io/Small-Systems-Lab](https://ukadike.github.io/Small-Systems-Lab/) from
 its own site footer.
 
 | Branch | Live site | Source repository | Status |
 |---|---|---|---|
 | Omoluabi | [ukadike.github.io/omoluabi](https://ukadike.github.io/omoluabi/) | [github.com/ukadike/omoluabi](https://github.com/ukadike/omoluabi) | Live |
 | — Omoluabi News (Omoluabi sub-project) | [ukadike.github.io/omoluabi-news](https://ukadike.github.io/omoluabi-news/) | [github.com/ukadike/omoluabi-news](https://github.com/ukadike/omoluabi-news) | Live — first implementation of the Omoluabi model |
-| Earth Sensors Lab | [ukadike.github.io/earth-sensors-lab](https://ukadike.github.io/earth-sensors-lab/) | [github.com/ukadike/Earth-Sensors-Lab](https://github.com/ukadike/Earth-Sensors-Lab) | Live |
-| Echo | [ukadike.github.io/echo](https://ukadike.github.io/echo/) | [github.com/ukadike/Echo](https://github.com/ukadike/Echo) | Live |
-| Umada | [ukadike.github.io/umada](https://ukadike.github.io/umada/) | [github.com/ukadike/Umada](https://github.com/ukadike/Umada) | Live |
+| Earth Sensors Lab | [ukadike.github.io/Earth-Sensors-Lab](https://ukadike.github.io/Earth-Sensors-Lab/) | [github.com/ukadike/Earth-Sensors-Lab](https://github.com/ukadike/Earth-Sensors-Lab) | Live |
+| Echo | [ukadike.github.io/Echo](https://ukadike.github.io/Echo/) | [github.com/ukadike/Echo](https://github.com/ukadike/Echo) | Live |
+| Umada | [ukadike.github.io/Umada](https://ukadike.github.io/Umada/) | [github.com/ukadike/Umada](https://github.com/ukadike/Umada) | Live |
 | Accessible by Design (Accessibility Audit Lab) | No live site yet | [github.com/ukadike/accessible-by-design-prototyping](https://github.com/ukadike/accessible-by-design-prototyping) | Toolkit in development, no GitHub Pages deployment found |
 | Ounjẹ | No live site yet | No public repository found | In development |
 

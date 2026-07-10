@@ -21,16 +21,16 @@ Six branches, in different stages of development. See also [`docs/branches.md`](
 ### [Omoluabi](https://ukadike.github.io/omoluabi/)
 Editorial intelligence for civic documentation, consent-aware reporting, provenance, accessibility, and human-governed publishing. Repo: [github.com/ukadike/omoluabi](https://github.com/ukadike/omoluabi). Its first live implementation is [Omoluabi News](https://ukadike.github.io/omoluabi-news/) ([repo](https://github.com/ukadike/omoluabi-news)), an accessible newsroom with a visible editorial reasoning engine.
 
-### [Earth Sensors Lab](https://ukadike.github.io/earth-sensors-lab/)
+### [Earth Sensors Lab](https://ukadike.github.io/Earth-Sensors-Lab/)
 Accessible STEAM observatory for young people, families, educators, gardens, climate sensing, and interstellar curiosity. Repo: [github.com/ukadike/Earth-Sensors-Lab](https://github.com/ukadike/Earth-Sensors-Lab).
 
-### [Echo](https://ukadike.github.io/echo/)
+### [Echo](https://ukadike.github.io/Echo/)
 AI literacy, creative technology education, prompts, workshops, public learning, and accessible AI practice. Repo: [github.com/ukadike/Echo](https://github.com/ukadike/Echo).
 
 ### Ounjẹ
 Food memory, healing recipes, cultural documentation, and cooking as archive. In development — no repo or site yet.
 
-### [Umada](https://ukadike.github.io/umada/)
+### [Umada](https://ukadike.github.io/Umada/)
 Speculative worldbuilding, future history, systems collapse, language memory, chimeras, cyborgs, civic signs, and the Omoluabi device as narrative artifact. Repo: [github.com/ukadike/Umada](https://github.com/ukadike/Umada).
 
 ### Accessible by Design
