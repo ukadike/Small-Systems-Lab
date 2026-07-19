@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Small Systems Lab — Sonified Sensor Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="vendor/p5.min.js"></script>
+  <script src="vendor/p5.sound.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Sonified Sensor Dashboard</h1>
+    <p id="summary" aria-live="polite">Waiting for sensor data.</p>
+    <button id="simulate">Simulate Sensor Reading</button>
+    <section aria-labelledby="data-heading">
+      <h2 id="data-heading">Current Data</h2>
+      <dl>
+        <dt>Soil</dt><dd id="soil">—</dd>
+        <dt>Light</dt><dd id="light">—</dd>
+        <dt>Status</dt><dd id="status">—</dd>
+      </dl>
+    </section>
+    <div id="canvas-holder" aria-label="Sensor data visualization"></div>
+  </main>
+  <script src="sketch.js"></script>
+</body>
+</html>

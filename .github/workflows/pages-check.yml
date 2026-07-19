@@ -1,0 +1,62 @@
+name: Pages and research build checks
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  static-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Confirm key files exist
+        run: |
+          test -f index.html
+          test -f README.md
+          test -f research/index.html
+          test -f research-program/00_START_HERE.md
+          test -f research-program/schemas/project.schema.json
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install schema validation deps
+        run: pip install jsonschema
+
+      - name: Validate JSON syntax and schemas
+        run: python3 scripts/validate_json.py
+
+      - name: Check internal links
+        run: python3 scripts/check_links.py
+
+  mermaid-render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Render mermaid diagrams
+        run: |
+          npx -y @mermaid-js/mermaid-cli \
+            -i research-program/diagrams/research-ecosystem.mmd \
+            -o /tmp/research-ecosystem.svg \
+            --puppeteerConfigFile .github/mermaid-puppeteer-config.json
+          npx -y @mermaid-js/mermaid-cli \
+            -i research-program/diagrams/methodology-flow.mmd \
+            -o /tmp/methodology-flow.svg \
+            --puppeteerConfigFile .github/mermaid-puppeteer-config.json
+
+  arduino-compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: arduino/compile-sketches@v1
+        with:
+          fqbn: arduino:avr:uno
+          sketch-paths: |
+            - research-program/code/arduino/earth-sensor-starter
+            - research-program/code/arduino/accessible-button-interface

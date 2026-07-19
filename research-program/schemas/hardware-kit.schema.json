@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Hardware Kit",
+  "type": "object",
+  "required": [
+    "kit_name",
+    "purpose",
+    "items"
+  ],
+  "properties": {
+    "kit_name": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

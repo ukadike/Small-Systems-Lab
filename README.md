@@ -63,6 +63,18 @@ Every SSL project asks:
 - [`SCHEMA_CARD.md`](SCHEMA_CARD.md) — quick-orientation card for contributors and code agents
 - [`docs/REPO_AUDIT.md`](docs/REPO_AUDIT.md) — structure/navigation/accessibility audit
 
+## Research Program
+
+[`research-program/`](research-program/00_START_HERE.md) is a PhD-level research
+architecture for SSL: theoretical framework, literature review, research questions,
+methodology, ethics/IRB templates, an evaluation framework, curriculum and syllabi,
+Arduino/p5.js starter code, JSON schemas, and funding planning, organized around six
+research programs that map onto the branches above. The public-facing pages are at
+[`research/index.html`](research/index.html) (live at
+[ukadike.github.io/small-systems-lab/research/](https://ukadike.github.io/small-systems-lab/research/)).
+This is a founding research build — see its status note in
+[`research-program/README.md`](research-program/README.md).
+
 ## Repository Structure
 
 ```text
@@ -70,6 +82,9 @@ Every SSL project asks:
 ├── README.md
 ├── INDEX.md
 ├── SCHEMA_CARD.md
+├── CITATION.cff
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
 ├── index.html
 ├── site.css
 ├── variables.css
@@ -82,8 +97,23 @@ Every SSL project asks:
 │   ├── accessibility.md
 │   ├── branches.md
 │   └── REPO_AUDIT.md
-└── claude/
-    └── CLAUDE_HANDOFF.md
+├── claude/
+│   └── CLAUDE_HANDOFF.md
+├── research/
+│   ├── index.html
+│   ├── programs.html
+│   ├── curriculum.html
+│   ├── student-belonging.html
+│   └── funding.html
+└── research-program/
+    ├── 00_START_HERE.md … 16_REPRODUCIBILITY_PLAN.md
+    ├── schemas/
+    ├── templates/
+    ├── data/
+    ├── code/arduino/, code/p5/
+    ├── diagrams/
+    ├── curriculum/syllabi/
+    └── funding/
 ```
 
 Note: earlier versions of this README referenced an `assets/` directory; no such

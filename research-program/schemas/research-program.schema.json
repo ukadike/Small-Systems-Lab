@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Research Program",
+  "type": "object",
+  "required": [
+    "name",
+    "purpose",
+    "research_questions",
+    "methods",
+    "example_projects"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "research_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "methods": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "hardware": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "software": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "example_projects": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "accessibility_considerations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

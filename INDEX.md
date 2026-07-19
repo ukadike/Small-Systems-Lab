@@ -23,6 +23,15 @@ Small Systems Lab (SSL) ecosystem. Start at [`README.md`](README.md) if you have
 - [`docs/accessibility.md`](docs/accessibility.md) — Accessibility as Architecture
 - [`docs/branches.md`](docs/branches.md) — branch-by-branch descriptions
 
+### Research Program (`research/`, `research-program/`)
+
+- [`research/index.html`](research/index.html) — public overview of the PhD-level research build
+- [`research/programs.html`](research/programs.html) — the six research programs
+- [`research/curriculum.html`](research/curriculum.html) — course sequence and syllabi links
+- [`research/student-belonging.html`](research/student-belonging.html) — belonging commitments
+- [`research/funding.html`](research/funding.html) — funding levels and equipment budget
+- [`research-program/00_START_HERE.md`](research-program/00_START_HERE.md) — reading paths into the full research build (theory, methods, ethics, evaluation, schemas, code)
+
 ## The Small Systems Lab ecosystem
 
 Small Systems Lab is the hub. Every branch below links back to
