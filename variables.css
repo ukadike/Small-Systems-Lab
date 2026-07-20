@@ -9,7 +9,11 @@
   --color-paper: #efece2;
   --color-ink: #1a1a1a;
   --color-line: #d0cdc6;
-  --color-muted: #6f6f6f;
+  /* WCAG AA fix (2026-07-20): darkened from #6f6f6f, which measured 4.25:1 against
+     --color-paper (fails the 4.5:1 text-contrast minimum). #666666 measures 4.86:1
+     against --color-paper (and improves further against --color-soft/--color-white),
+     with the same neutral gray hue. See WCAG_AUDIT.md. */
+  --color-muted: #666666;
   --color-soft: #f9f9f7;
   --color-white: #ffffff;
 
