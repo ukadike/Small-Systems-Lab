@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accessibility — Small Systems Lab</title>
+<meta name="description" content="Accessibility as architecture: the baseline requirements and enforcement layer shared across the Small Systems Lab ecosystem.">
+<link rel="stylesheet" href="../variables.css">
+<link rel="stylesheet" href="../site.css">
+<script src="../ssl-nav.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="ssl-header">
+  <div class="ssl-header__row">
+    <a class="ssl-brand" href="https://ukadike.github.io/Small-Systems-Lab/">Small Systems Lab</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="ssl-global-nav">Menu</button>
+  </div>
+  <nav id="ssl-global-nav" class="ssl-global-nav" aria-label="Primary navigation">
+    <ul>
+      <li><a href="https://ukadike.github.io/Small-Systems-Lab/">Small Systems Lab</a></li>
+      <li><a href="https://ukadike.github.io/omoluabi/">Omoluabi</a></li>
+      <li><a href="https://ukadike.github.io/Umada/">UMADA</a></li>
+      <li><a href="https://ukadike.github.io/accessible-by-design-prototyping/">Accessible by Design</a></li>
+      <li><a href="https://ukadike.github.io/Earth-Sensors-Lab/">Earth Sensors Lab</a></li>
+      <li><a href="https://ukadike.github.io/Small-Systems-Lab/schema-cards/">Schema Cards</a></li>
+      <li><a href="https://ukadike.github.io/Small-Systems-Lab/site-map/">Site Map</a></li>
+      <li><a href="https://github.com/ukadike">GitHub</a></li>
+    </ul>
+  </nav>
+</header>
+
+<header class="header">
+  <div class="wrap">
+    <p class="text-meta">Small Systems Lab · Accessibility</p>
+    <h1 class="text-h1">Accessibility</h1>
+    <p class="text-body">Accessibility as architecture: a founding constraint across every SSL
+      project, not an add-on.</p>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+
+  <section aria-labelledby="baseline-h">
+    <h2 id="baseline-h" class="text-h2">Baseline requirements</h2>
+    <p class="text-body">Every SSL branch documents its accessibility baseline against this
+      shared list:</p>
+    <ul class="text-body">
+      <li>keyboard-only operation</li>
+      <li>screen reader compatibility</li>
+      <li>high contrast</li>
+      <li>captions</li>
+      <li>transcripts</li>
+      <li>alt text</li>
+      <li>plain-language summaries</li>
+      <li>multimodal outputs</li>
+      <li>tactile/printable options where possible</li>
+      <li>low-bandwidth and offline-first thinking</li>
+    </ul>
+    <p class="text-body">Source: <a href="https://github.com/ukadike/Small-Systems-Lab/blob/main/docs/accessibility.md">docs/accessibility.md</a>.</p>
+  </section>
+
+  <hr class="divider">
+
+  <section aria-labelledby="nav-h">
+    <h2 id="nav-h" class="text-h2">Navigation accessibility rules</h2>
+    <p class="text-body">The canonical SSL navigation (see <a href="../schema-cards/">Schema
+      Cards</a>) requires: semantic <code>&lt;nav&gt;</code> elements with clear
+      <code>aria-label</code>s, a visible skip link, real links rather than clickable
+      <code>&lt;div&gt;</code>s, visible focus states, <code>aria-current="page"</code> on the
+      active link, and keyboard-operable mobile menus that expose
+      <code>aria-expanded</code>.</p>
+  </section>
+
+  <hr class="divider">
+
+  <section aria-labelledby="enforcement-h">
+    <h2 id="enforcement-h" class="text-h2">Enforcement layer</h2>
+    <p class="text-body"><a href="https://ukadike.github.io/accessible-by-design-prototyping/">Accessible
+      by Design</a> is the audit toolkit that checks websites, PDFs, and p5.js sketches
+      against WCAG 2.2+ rules, and is the enforcement layer referenced by this page. See its
+      <a href="https://github.com/ukadike/accessible-by-design-prototyping/tree/main/rules">rules</a>
+      and <a href="https://github.com/ukadike/accessible-by-design-prototyping/tree/main/schemas">schemas</a>.</p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="text-body">Accessibility is part of <a href="https://ukadike.github.io/Small-Systems-Lab/">Small
+      Systems Lab</a>, a public-interest studio for care, rules, memory, geometry, accessibility,
+      and civic knowledge.</p>
+    <p class="text-meta">Copyright Adekemi (Kemi) Sijuwade Ukadike. All rights reserved unless
+      otherwise stated. · <a href="https://github.com/ukadike">github.com/ukadike</a></p>
+    <nav aria-label="Footer">
+      <ul class="footer-links">
+        <li><a href="https://ukadike.github.io/Small-Systems-Lab/site-map/">Site Map</a></li>
+        <li><a href="https://ukadike.github.io/Small-Systems-Lab/accessibility/" aria-current="page">Accessibility</a></li>
+        <li><a href="https://ukadike.github.io/Small-Systems-Lab/schema-cards/">Schema Cards</a></li>
+        <li><a href="https://github.com/ukadike">GitHub</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+<script type="application/json" data-schema="page.schema.v1">
+{
+  "title": "Accessibility",
+  "project": "Small Systems Lab",
+  "canonicalUrl": "https://ukadike.github.io/Small-Systems-Lab/accessibility/",
+  "status": "active",
+  "nav": { "globalNav": true, "localNav": false, "siteMapEntry": true },
+  "accessibility": {
+    "skipLink": true,
+    "mainLandmark": true,
+    "keyboardTested": true,
+    "screenReaderLabeling": true,
+    "focusVisible": true
+  },
+  "lastUpdated": "2026-07-20"
+}
+</script>
+
+</body>
+</html>

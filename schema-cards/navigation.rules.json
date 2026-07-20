@@ -1,0 +1,42 @@
+{
+  "id": "navigation.rules.v1",
+  "title": "SSL Navigation Rules",
+  "rules": [
+    {
+      "rule": "global_nav_required",
+      "description": "Every public SSL page must include the canonical global navigation."
+    },
+    {
+      "rule": "no_orphan_pages",
+      "description": "Every public page must be reachable from the global nav, local nav, footer, or site map."
+    },
+    {
+      "rule": "future_pages_inherit_nav",
+      "description": "All future public pages inherit the canonical SSL navigation pattern by default."
+    },
+    {
+      "rule": "local_nav_is_project_specific",
+      "description": "Local navigation should only include pages belonging to the current project or repo."
+    },
+    {
+      "rule": "schema_card_required",
+      "description": "Every public page must have a page schema card."
+    },
+    {
+      "rule": "site_map_entry_required",
+      "description": "Every public page must be listed in the public site map."
+    },
+    {
+      "rule": "active_page_declared",
+      "description": "The active navigation item must use aria-current=\"page\"."
+    },
+    {
+      "rule": "keyboard_navigation_required",
+      "description": "Navigation must be fully usable by keyboard only."
+    },
+    {
+      "rule": "skip_link_required",
+      "description": "Every page must include a skip link to main content."
+    }
+  ]
+}

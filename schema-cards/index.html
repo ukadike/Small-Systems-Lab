@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Schema Cards — Small Systems Lab</title>
+<meta name="description" content="Schema Cards: shared rules, page schema, navigation rules, and reusable evidence/media/device structures for the Small Systems Lab ecosystem.">
+<link rel="stylesheet" href="../variables.css">
+<link rel="stylesheet" href="../site.css">
+<script src="../ssl-nav.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="ssl-header">
+  <div class="ssl-header__row">
+    <a class="ssl-brand" href="https://ukadike.github.io/Small-Systems-Lab/">Small Systems Lab</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="ssl-global-nav">Menu</button>
+  </div>
+  <nav id="ssl-global-nav" class="ssl-global-nav" aria-label="Primary navigation">
+    <ul>
+      <li><a href="https://ukadike.github.io/Small-Systems-Lab/">Small Systems Lab</a></li>
+      <li><a href="https://ukadike.github.io/omoluabi/">Omoluabi</a></li>
+      <li><a href="https://ukadike.github.io/Umada/">UMADA</a></li>
+      <li><a href="https://ukadike.github.io/accessible-by-design-prototyping/">Accessible by Design</a></li>
+      <li><a href="https://ukadike.github.io/Earth-Sensors-Lab/">Earth Sensors Lab</a></li>
+      <li><a href="https://ukadike.github.io/Small-Systems-Lab/schema-cards/" aria-current="page">Schema Cards</a></li>
+      <li><a href="https://ukadike.github.io/Small-Systems-Lab/site-map/">Site Map</a></li>
+      <li><a href="https://github.com/ukadike">GitHub</a></li>
+    </ul>
+  </nav>
+  <nav class="local-nav" aria-label="Project navigation">
+    <ul>
+      <li><a href="#overview" aria-current="page">Overview</a></li>
+      <li><a href="#page-schema">Page Schema</a></li>
+      <li><a href="#navigation-rules">Navigation Rules</a></li>
+      <li><a href="#media-schema">Media Schema</a></li>
+      <li><a href="#device-schema">Device Schema</a></li>
+      <li><a href="#evidence-schema">Evidence Schema</a></li>
+      <li><a href="#accessibility-schema">Accessibility Schema</a></li>
+      <li><a href="#canon-schema">Canon Schema</a></li>
+    </ul>
+  </nav>
+</header>
+
+<header class="header">
+  <div class="wrap">
+    <p class="text-meta">Small Systems Lab · Schema Cards</p>
+    <h1 class="text-h1">Schema Cards</h1>
+    <p class="text-body">Shared rules, data models, page cards, and reusable structures across
+      SSL projects — infrastructure, not just documentation.</p>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+
+  <section aria-labelledby="overview-h" id="overview">
+    <h2 id="overview-h" class="text-h2">Overview</h2>
+    <p class="text-body">Schema Cards defines the shared rules and data models that every
+      public SSL page follows: what a page needs to declare about itself, how navigation is
+      structured, and what recurring content types (media, devices, evidence, accessibility
+      checks, canon status) look like once they are formalized. Any recurring pattern across
+      Small Systems Lab, Omoluabi, UMADA, Accessible by Design, or Earth Sensors Lab should
+      eventually become a schema card here.</p>
+  </section>
+
+  <hr class="divider">
+
+  <section aria-labelledby="page-schema-h" id="page-schema">
+    <h2 id="page-schema-h" class="text-h2">Page Schema</h2>
+    <p class="text-meta">Canon status: LOCKED</p>
+    <p class="text-body">Every public SSL page declares a page schema card: title, project,
+      canonical URL, status, which navigation levels it participates in, and its accessibility
+      checklist. See <a href="page.schema.json">page.schema.json</a>.</p>
+  </section>
+
+  <hr class="divider">
+
+  <section aria-labelledby="navigation-rules-h" id="navigation-rules">
+    <h2 id="navigation-rules-h" class="text-h2">Navigation Rules</h2>
+    <p class="text-meta">Canon status: LOCKED</p>
+    <p class="text-body">The rules that govern the canonical global nav, local nav, footer
+      links, and future-page inheritance. See <a href="navigation.rules.json">navigation.rules.json</a>.</p>
+    <ul class="text-body">
+      <li>Every public SSL page must include the canonical global navigation.</li>
+      <li>Every public page must be reachable from the global nav, local nav, footer, or site map — no orphan pages.</li>
+      <li>All future public pages inherit the canonical SSL navigation pattern by default.</li>
+      <li>Local navigation only includes pages belonging to the current project or repo.</li>
+      <li>Every public page must have a page schema card and a site map entry.</li>
+      <li>The active navigation item must use <code>aria-current="page"</code>.</li>
+      <li>Navigation must be fully usable by keyboard only, with a visible skip link.</li>
+    </ul>
+  </section>
+
+  <hr class="divider">
+
+  <section aria-labelledby="media-schema-h" id="media-schema">
+    <h2 id="media-schema-h" class="text-h2">Media Schema</h2>
+    <p class="text-meta">Canon status: AWAITING FRAGMENT</p>
+    <p class="text-body">Not yet defined. Will describe the shared wrapper for images, audio,
+      and video across SSL projects (alt text, captions, transcripts, provenance).</p>
+  </section>
+
+  <hr class="divider">
+
+  <section aria-labelledby="device-schema-h" id="device-schema">
+    <h2 id="device-schema-h" class="text-h2">Device Schema</h2>
+    <p class="text-meta">Canon status: AWAITING FRAGMENT</p>
+    <p class="text-body">Not yet defined. Will describe device requirement cards for the
+      Omoluabi physical device and future field instruments (see
+      <a href="https://ukadike.github.io/omoluabi/">Omoluabi</a> and
+      <a href="https://ukadike.github.io/Earth-Sensors-Lab/">Earth Sensors Lab</a>).</p>
+  </section>
+
+  <hr class="divider">
+
+  <section aria-labelledby="evidence-schema-h" id="evidence-schema">
+    <h2 id="evidence-schema-h" class="text-h2">Evidence Schema</h2>
+    <p class="text-meta">Canon status: AWAITING FRAGMENT</p>
+    <p class="text-body">Not yet defined. Will describe Omoluabi's evidence cards: consent,
+      provenance, and review structure for observations.</p>
+  </section>
+
+  <hr class="divider">
+
+  <section aria-labelledby="accessibility-schema-h" id="accessibility-schema">
+    <h2 id="accessibility-schema-h" class="text-h2">Accessibility Schema</h2>
+    <p class="text-meta">Canon status: PROBABLE</p>
+    <p class="text-body">Defined in the Accessible by Design repository, which acts as the
+      enforcement layer for accessibility rules across SSL:
+      <a href="https://github.com/ukadike/accessible-by-design-prototyping/blob/main/schemas/accessibility-rule.schema.json">accessibility-rule.schema.json</a>
+      and
+      <a href="https://github.com/ukadike/accessible-by-design-prototyping/blob/main/schemas/audit-result.schema.json">audit-result.schema.json</a>.
+      Not yet mirrored here as a page-schema-card-style JSON file — treat the Accessible by
+      Design repo as the source of truth until it is.</p>
+  </section>
+
+  <hr class="divider">
+
+  <section aria-labelledby="canon-schema-h" id="canon-schema">
+    <h2 id="canon-schema-h" class="text-h2">Canon Schema</h2>
+    <p class="text-meta">Canon status: EMERGING</p>
+    <p class="text-body">UMADA's canon status vocabulary (LOCKED / PROBABLE / EMERGING /
+      OPEN QUESTION / RETIRED / AWAITING FRAGMENT) is documented in prose in UMADA's
+      <a href="https://github.com/ukadike/Umada/blob/main/00_governance/CANON_STATUS.md">CANON_STATUS.md</a>.
+      A formal <code>canon.schema.json</code> has not been written yet — this entry is a
+      pointer, not a finished schema.</p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="text-body">Schema Cards is part of <a href="https://ukadike.github.io/Small-Systems-Lab/">Small
+      Systems Lab</a>, a public-interest studio for care, rules, memory, geometry, accessibility,
+      and civic knowledge.</p>
+    <p class="text-meta">Copyright Adekemi (Kemi) Sijuwade Ukadike. All rights reserved unless
+      otherwise stated. · <a href="https://github.com/ukadike">github.com/ukadike</a></p>
+    <nav aria-label="Footer">
+      <ul class="footer-links">
+        <li><a href="https://ukadike.github.io/Small-Systems-Lab/site-map/">Site Map</a></li>
+        <li><a href="https://ukadike.github.io/Small-Systems-Lab/accessibility/">Accessibility</a></li>
+        <li><a href="https://ukadike.github.io/Small-Systems-Lab/schema-cards/" aria-current="page">Schema Cards</a></li>
+        <li><a href="https://github.com/ukadike">GitHub</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+<script type="application/json" data-schema="page.schema.v1">
+{
+  "title": "Schema Cards",
+  "project": "Schema Cards",
+  "canonicalUrl": "https://ukadike.github.io/Small-Systems-Lab/schema-cards/",
+  "status": "active",
+  "nav": { "globalNav": true, "localNav": true, "siteMapEntry": true },
+  "accessibility": {
+    "skipLink": true,
+    "mainLandmark": true,
+    "keyboardTested": true,
+    "screenReaderLabeling": true,
+    "focusVisible": true
+  },
+  "lastUpdated": "2026-07-20"
+}
+</script>
+
+</body>
+</html>

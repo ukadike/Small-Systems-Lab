@@ -8,10 +8,14 @@ Small Systems Lab (SSL) ecosystem. Start at [`README.md`](README.md) if you have
 
 - [`README.md`](README.md) — project overview, method, branches, repository structure
 - [`index.html`](index.html) — the live GitHub Pages site (hub homepage)
+- [`schema-cards/`](schema-cards/index.html) — SSL-wide page schema, navigation rules, and reusable schema cards
+- [`site-map/`](site-map/index.html) — human-readable index of every public page across the SSL ecosystem
+- [`accessibility/`](accessibility/index.html) — SSL-wide accessibility baseline and enforcement layer
 - [`SCHEMA_CARD.md`](SCHEMA_CARD.md) — quick-orientation card for contributors and code agents
 - [`docs/REPO_AUDIT.md`](docs/REPO_AUDIT.md) — structure/navigation/accessibility audit
 - [`site.css`](site.css) — layout glue (locked visual system: layout only)
 - [`variables.css`](variables.css) — design tokens and components (locked visual system: source of truth)
+- [`ssl-nav.js`](ssl-nav.js) — canonical global navigation mobile-toggle script, shared pattern across SSL repos
 - [`claude/CLAUDE_HANDOFF.md`](claude/CLAUDE_HANDOFF.md) — original build brief for this site
 
 ### Method documentation (`docs/`)

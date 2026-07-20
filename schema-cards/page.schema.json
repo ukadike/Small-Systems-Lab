@@ -1,0 +1,78 @@
+{
+  "id": "page.schema.v1",
+  "title": "SSL Page Schema",
+  "type": "object",
+  "required": [
+    "title",
+    "project",
+    "canonicalUrl",
+    "status",
+    "nav",
+    "accessibility",
+    "lastUpdated"
+  ],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "project": {
+      "type": "string",
+      "enum": [
+        "Small Systems Lab",
+        "Omoluabi",
+        "UMADA",
+        "Accessible by Design",
+        "Earth Sensors Lab",
+        "Schema Cards"
+      ]
+    },
+    "canonicalUrl": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "active",
+        "archived",
+        "placeholder",
+        "awaiting-fragment"
+      ]
+    },
+    "nav": {
+      "type": "object",
+      "required": ["globalNav", "localNav", "siteMapEntry"],
+      "properties": {
+        "globalNav": {
+          "type": "boolean"
+        },
+        "localNav": {
+          "type": "boolean"
+        },
+        "siteMapEntry": {
+          "type": "boolean"
+        }
+      }
+    },
+    "accessibility": {
+      "type": "object",
+      "required": [
+        "skipLink",
+        "mainLandmark",
+        "keyboardTested",
+        "screenReaderLabeling",
+        "focusVisible"
+      ],
+      "properties": {
+        "skipLink": { "type": "boolean" },
+        "mainLandmark": { "type": "boolean" },
+        "keyboardTested": { "type": "boolean" },
+        "screenReaderLabeling": { "type": "boolean" },
+        "focusVisible": { "type": "boolean" }
+      }
+    },
+    "lastUpdated": {
+      "type": "string"
+    }
+  }
+}
