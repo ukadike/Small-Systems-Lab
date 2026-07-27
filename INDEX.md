@@ -22,6 +22,9 @@ Small Systems Lab (SSL) ecosystem. Start at [`README.md`](README.md) if you have
 - [`docs/ancient-geometry.md`](docs/ancient-geometry.md) — Ancient Geometry as Interface Logic
 - [`docs/accessibility.md`](docs/accessibility.md) — Accessibility as Architecture
 - [`docs/branches.md`](docs/branches.md) — branch-by-branch descriptions
+- [`docs/atomic-micro-systems.md`](docs/atomic-micro-systems.md) — Atomic Micro Systems working
+  theory (v0.1) · [schema card](docs/atomic-micro-systems-schema-card.md) ·
+  [live page](https://ukadike.github.io/Small-Systems-Lab/atomic-micro-systems/)
 
 ## The Small Systems Lab ecosystem
 

@@ -59,6 +59,11 @@ Every SSL project asks:
 - [`docs/ancient-geometry.md`](docs/ancient-geometry.md) — Ancient Geometry as Interface Logic
 - [`docs/accessibility.md`](docs/accessibility.md) — Accessibility as Architecture
 - [`docs/branches.md`](docs/branches.md) — branch-by-branch descriptions
+- [`docs/atomic-micro-systems.md`](docs/atomic-micro-systems.md) — Atomic Micro Systems, a
+  working theory (v0.1) of institutional transformation through temporary nuclei, bounded
+  sandboxes, and emergent micro systems; see also its
+  [schema card](docs/atomic-micro-systems-schema-card.md) and
+  [public page](https://ukadike.github.io/Small-Systems-Lab/atomic-micro-systems/)
 - [`INDEX.md`](INDEX.md) — full sitemap of this repo and the SSL ecosystem
 - [`SCHEMA_CARD.md`](SCHEMA_CARD.md) — quick-orientation card for contributors and code agents
 - [`docs/REPO_AUDIT.md`](docs/REPO_AUDIT.md) — structure/navigation/accessibility audit
@@ -81,14 +86,16 @@ Every SSL project asks:
 │   ├── ancient-geometry.md
 │   ├── accessibility.md
 │   ├── branches.md
+│   ├── atomic-micro-systems.md
+│   ├── atomic-micro-systems-schema-card.md
 │   └── REPO_AUDIT.md
+├── atomic-micro-systems/
+│   └── index.html
+├── assets/
+│   └── atomic-micro-systems-etching.png
 └── claude/
     └── CLAUDE_HANDOFF.md
 ```
-
-Note: earlier versions of this README referenced an `assets/` directory; no such
-directory currently exists in the repository. Removed from the structure listing above
-to keep this file in sync with reality — see `docs/REPO_AUDIT.md`.
 
 ## Suggested GitHub Pages Tagline
 
