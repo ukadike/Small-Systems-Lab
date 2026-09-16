@@ -3,9 +3,21 @@
 **Status:** LOCKED v0.1 research baseline / active prototype  
 **Branch:** `aen-compute-infrastructure`  
 **Small Systems Lab**  
+**Physical machine specification:** [`PHYSICAL-CONSTRUCTION-SPEC-V0.1.md`](./PHYSICAL-CONSTRUCTION-SPEC-V0.1.md)  
 **Authoritative baseline:** [`LOCKED-BASELINE-V0.1.md`](./LOCKED-BASELINE-V0.1.md)  
 **Build sequence:** [`BUILD-PLAN-V0.1.md`](./BUILD-PLAN-V0.1.md)  
 **Compute boundary research:** [`RESEARCH-CENTRALIZATION-BOUNDARY.md`](./RESEARCH-CENTRALIZATION-BOUNDARY.md)
+
+## What AEN-CB01 physically is
+
+AEN-CB01 is a three-module machine plus a separate solar source:
+
+- **AEN-E:** a powder-coated steel battery/power cabinet containing certified LFP rack modules, BMS, disconnects, protection, inverter/charger, solar charge interface, and telemetry.
+- **AEN-C:** a steel 19-inch compute rack containing a GPU compute node, CPU, memory, NVMe storage, networking, filters, controls, and electrical/thermal instrumentation.
+- **AEN-T:** an insulated steel thermal cabinet containing copper/aluminum heat-transfer hardware, a sealed heat-transfer loop or contained hot-air path, temperature/flow/leak sensors, replaceable thermal-storage media, and a dry radiator for heat that cannot be reused.
+- **Solar source:** a separate approximately 3 kW v0.1 PV research array using commercial framed modules, aluminum mounting rails, weather-rated DC protection, and an MPPT/hybrid charge interface.
+
+The battery, compute, and thermal systems are intentionally **not placed in one enclosure**. They have different fire, service, cooling, and maintenance requirements. See the physical construction specification for materials, preliminary dimensions, interfaces, sensors, cooling loop, thermal storage, and assembly sequence.
 
 ## Mission
 
@@ -55,16 +67,7 @@ The long-term architecture is not limited to one workstation. AEN Compute should
 
 ## The data-center problem AEN addresses
 
-Conventional AI infrastructure concentrates enormous quantities of computation into a small number of physical sites. That concentration creates corresponding requirements for:
-
-- continuous high-capacity electricity;
-- transmission and grid infrastructure;
-- large thermal-management systems;
-- water in cooling architectures that depend on it;
-- backup generation and resilience systems;
-- land and physical infrastructure;
-- capital concentration;
-- dependence on distant cloud providers.
+Conventional AI infrastructure concentrates enormous quantities of computation into a small number of physical sites. That concentration creates corresponding requirements for continuous high-capacity electricity, transmission and grid infrastructure, large thermal-management systems, water in cooling architectures that depend on it, backup generation, land, capital concentration, and dependence on distant cloud providers.
 
 AEN does not assume these constraints are inevitable properties of AI. They are partly properties of **how compute infrastructure has been architected**.
 
@@ -76,24 +79,11 @@ It is:
 
 ## AEN-E — Electrical infrastructure
 
-AEN-E supplies compute through modular electrical storage and solar-first generation.
-
-Research goals:
-
-- scalable solar generation;
-- modular LFP storage;
-- protected DC distribution;
-- DC-first pathways where technically advantageous;
-- grid connection as supplemental resilience rather than a prerequisite where possible;
-- transparent energy measurement and provenance;
-- modular expansion from one block to many blocks;
-- hardware safety independent of AI/software control.
+AEN-E supplies compute through modular electrical storage and solar-first generation. Research goals include scalable solar generation, modular LFP storage, protected DC distribution, DC-first pathways where technically advantageous, grid connection as supplemental resilience rather than a prerequisite where possible, transparent energy measurement and provenance, modular expansion from one block to many blocks, and hardware safety independent of AI/software control.
 
 ## AEN-C — Compute infrastructure
 
 AEN-C is the compute layer.
-
-It should support progressive scaling:
 
 ```text
 EDGE NODE
@@ -109,104 +99,27 @@ AEN COMPUTE FABRIC
     -> geographically distributed regional capacity
 ```
 
-Research areas include:
-
-- local inference;
-- model fine-tuning;
-- scientific and university computing;
-- multimodal AI;
-- locally hosted models and services;
-- distributed training where network topology makes it practical;
-- workload migration between blocks;
-- energy-aware and temperature-aware scheduling;
-- high-speed interconnect requirements for workloads that cannot be efficiently distributed.
-
 AEN does **not** assume every frontier-model workload can be decomposed across widely separated nodes. Some workloads require tightly coupled accelerators and very high-bandwidth interconnects. Those limits should be measured rather than ignored.
 
 ## AEN-T — Heat as infrastructure
 
-Almost all electrical energy consumed by compute ultimately becomes heat.
-
-Conventional facilities primarily treat this as something to remove. AEN-T asks how much of it can instead be captured, buffered, stored, transported, or reused before final dissipation.
-
-Research areas include:
-
-- dry heat rejection;
-- heat pipes and thermosyphon systems;
-- closed-loop cooling;
-- phase-change thermal storage;
-- ceramic or solid thermal media;
-- modular thermal cassettes;
-- water-free or extremely low-water operating modes;
-- useful secondary heat loads such as drying, hot-water preheat, greenhouse heat, or suitable process heat.
+Almost all electrical energy consumed by compute ultimately becomes heat. Conventional facilities primarily treat this as something to remove. AEN-T asks how much of it can instead be captured, buffered, stored, transported, or reused before final dissipation.
 
 AEN-T is an energy-cascading system, not a perpetual-energy system. Low-temperature waste heat cannot be reconverted to electricity without significant thermodynamic losses.
 
 ## Scale, rather than restriction
 
-AEN should use environmental information to **increase usable compute capacity**, not merely to throttle it.
-
-For example, the orchestration layer can determine where additional compute can run most efficiently:
-
-```text
-BLOCK A
-high solar surplus
-thermal capacity available
-    -> accept additional workload
-
-BLOCK B
-battery low
-thermal store near limit
-    -> shift workload elsewhere
-
-BLOCK C
-cool ambient conditions
-large renewable surplus
-    -> accept compute-intensive job
-```
-
-Instead of one facility hitting an electricity or cooling ceiling, additional AEN blocks can contribute capacity to the network.
-
-The design goal is therefore:
+AEN should use environmental information to **increase usable compute capacity**, not merely to throttle it. Instead of one facility hitting an electricity or cooling ceiling, additional AEN blocks can contribute capacity to the network.
 
 > **Make renewable generation, storage, heat recovery, and distributed orchestration tools for scaling compute.**
 
 ## Ethical AI growth
 
-AEN supports rapid AI development while making infrastructure costs visible and governable.
-
-Ethical growth does not mean artificially restricting useful African AI capability. It means avoiding a development model in which the benefits of AI grow while energy, water, land, data, labor, or environmental costs are externalized onto host communities.
-
-Design principles include:
-
-- **African compute capacity:** increase locally available AI infrastructure.
-- **Infrastructure sovereignty:** reduce total dependence on foreign cloud infrastructure where local capacity is practical.
-- **Data sovereignty:** support locally controlled storage, models, and services.
-- **Water protection:** engineer cooling around minimal operational water consumption where feasible.
-- **Renewable expansion:** add generation and storage alongside compute growth.
-- **Heat recovery:** seek secondary value from compute heat.
-- **Accessibility:** design hardware, software, documentation, education, and employment pathways for disabled users and workers from the beginning.
-- **Community benefit:** host communities should receive tangible infrastructure and economic value.
-- **Human governance:** people and institutions define priorities; scheduling software executes them.
-- **Transparency:** measure energy source, energy use, thermal output, water use, hardware utilization, and local benefit.
+AEN supports rapid AI development while making infrastructure costs visible and governable. Ethical growth does not mean artificially restricting useful African AI capability. It means avoiding a development model in which the benefits of AI grow while energy, water, land, data, labor, or environmental costs are externalized onto host communities.
 
 ## African infrastructure context
 
-Africa is not one climate, energy market, network environment, or political jurisdiction. AEN Compute must therefore be locally engineered.
-
-Potential deployment contexts include:
-
-- universities and research institutions;
-- schools and technical education;
-- hospitals and health research;
-- agricultural and climate computing;
-- creative-technology labs;
-- locally hosted language and cultural models;
-- startups and SMEs;
-- public-interest digital infrastructure;
-- regional AI and cloud providers.
-
-Climate adaptations may differ substantially between humid coastal environments, Sahelian regions, high-altitude locations, and temperate zones.
+Africa is not one climate, energy market, network environment, or political jurisdiction. AEN Compute must therefore be locally engineered. Climate adaptations may differ substantially between humid coastal environments, Sahelian regions, high-altitude locations, and temperate zones.
 
 Nigeria is a strong candidate for an initial research program because AEN originated from questions of distributed energy resilience, modular storage, solar input, and reduced generator dependence.
 
@@ -214,25 +127,7 @@ Nigeria is a strong candidate for an initial research program because AEN origin
 
 **AEN-CB01** is intentionally small because its job is to validate the architecture, not define the final scale.
 
-Initial research target:
-
-- ~1.2 kW compute design load;
-- ~12 kWh nominal LFP storage target;
-- ~3 kW preliminary solar target;
-- instrumented electrical and thermal flows;
-- zero operational cooling-water target for the prototype;
-- heat-recovery pathway;
-- workload scheduler;
-- hardware safety independent of scheduler.
-
-The next phases should explicitly test **scale-out**:
-
-1. one compute block;
-2. multiple blocks on one site;
-3. shared solar/storage infrastructure;
-4. high-speed local compute cluster;
-5. geographically distributed AEN compute fabric;
-6. comparison against conventional data-center energy, water, cost, performance, and reliability metrics.
+Initial research target: approximately 1.2 kW compute design load, 12 kWh nominal LFP storage, 3 kW preliminary solar, instrumented electrical and thermal flows, zero operational cooling-water target for the prototype, heat recovery, workload scheduling, and hardware safety independent of the scheduler.
 
 ## Central research question
 
