@@ -1,8 +1,11 @@
 # AEN Compute Infrastructure
 
-**Status:** Research / prototype architecture  
+**Status:** LOCKED v0.1 research baseline / active prototype  
 **Branch:** `aen-compute-infrastructure`  
-**Small Systems Lab**
+**Small Systems Lab**  
+**Authoritative baseline:** [`LOCKED-BASELINE-V0.1.md`](./LOCKED-BASELINE-V0.1.md)  
+**Build sequence:** [`BUILD-PLAN-V0.1.md`](./BUILD-PLAN-V0.1.md)  
+**Compute boundary research:** [`RESEARCH-CENTRALIZATION-BOUNDARY.md`](./RESEARCH-CENTRALIZATION-BOUNDARY.md)
 
 ## Mission
 
