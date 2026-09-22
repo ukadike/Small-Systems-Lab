@@ -6,8 +6,8 @@ Editorial intelligence, civic documentation, consent, provenance, public knowled
 ## Earth Sensors Lab
 Accessible environmental sensing, school-based STEAM, gardens, climate, soil, weather, sonification, and interstellar curiosity.
 
-## Echo
-AI literacy, accessible prompt education, public workshops, creative technology learning, and future intelligence practice.
+## ECHO
+AI governance through accessibility, human agency, and public learning. ECHO develops Accessibility-Constrained Intelligence (ACI): the thesis that **access is a condition of correctness** and that required accessibility dimensions can function as non-compensable gates in AI evaluation and deployment. AI literacy, accessible prompt education, workshops, and creative technology learning remain part of ECHO as public-governance infrastructure.
 
 ## Ounjẹ
 Food archive, healing recipes, Nigerian and diasporic cooking, memory, care, and cultural documentation.
