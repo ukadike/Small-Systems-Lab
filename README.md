@@ -24,8 +24,8 @@ Editorial intelligence for civic documentation, consent-aware reporting, provena
 ### [Earth Sensors Lab](https://ukadike.github.io/Earth-Sensors-Lab/)
 Accessible STEAM observatory for young people, families, educators, gardens, climate sensing, and interstellar curiosity. Repo: [github.com/ukadike/Earth-Sensors-Lab](https://github.com/ukadike/Earth-Sensors-Lab).
 
-### [Echo](https://ukadike.github.io/Echo/)
-AI literacy, creative technology education, prompts, workshops, public learning, and accessible AI practice. Repo: [github.com/ukadike/Echo](https://github.com/ukadike/Echo).
+### [ECHO](https://ukadike.github.io/Echo/)
+AI governance through accessibility, human agency, and public learning. ECHO's core doctrine is **“Access is a condition of correctness.”** Its Accessibility-Constrained Intelligence (ACI) framework investigates how accessibility can operate as a requirement across AI training, preference and reward systems, evaluation/TEVV, agent behavior, deployment gates, oversight, and redress — rather than as an accommodation added after a system is built. Repo: [github.com/ukadike/Echo](https://github.com/ukadike/Echo).
 
 ### Ounjẹ
 Food memory, healing recipes, cultural documentation, and cooking as archive. In development — no repo or site yet.
