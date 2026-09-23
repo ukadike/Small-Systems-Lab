@@ -22,6 +22,8 @@ Small Systems Lab (SSL) ecosystem. Start at [`README.md`](README.md) if you have
 - [`docs/ancient-geometry.md`](docs/ancient-geometry.md) — Ancient Geometry as Interface Logic
 - [`docs/accessibility.md`](docs/accessibility.md) — Accessibility as Architecture
 - [`docs/branches.md`](docs/branches.md) — branch-by-branch descriptions
+- [`aen-sovereign-compute/index.html`](aen-sovereign-compute/index.html) — AEN / African Sovereign Compute live research page
+- [`aen-sovereign-compute/research/2026-09-22-abb-motion-dc-architecture.md`](aen-sovereign-compute/research/2026-09-22-abb-motion-dc-architecture.md) — ABB Motion + DC architecture research note
 - [`docs/atomic-micro-systems.md`](docs/atomic-micro-systems.md) — Atomic Micro Systems working
   theory (v0.1) · [schema card](docs/atomic-micro-systems-schema-card.md) ·
   [live page](https://ukadike.github.io/Small-Systems-Lab/atomic-micro-systems/)
@@ -37,6 +39,7 @@ its own site footer.
 | Omoluabi | [ukadike.github.io/omoluabi](https://ukadike.github.io/omoluabi/) | [github.com/ukadike/omoluabi](https://github.com/ukadike/omoluabi) | Live |
 | — Omoluabi News (Omoluabi sub-project) | [ukadike.github.io/omoluabi-news](https://ukadike.github.io/omoluabi-news/) | [github.com/ukadike/omoluabi-news](https://github.com/ukadike/omoluabi-news) | Live — first implementation of the Omoluabi model |
 | Earth Sensors Lab | [ukadike.github.io/Earth-Sensors-Lab](https://ukadike.github.io/Earth-Sensors-Lab/) | [github.com/ukadike/Earth-Sensors-Lab](https://github.com/ukadike/Earth-Sensors-Lab) | Live |
+| AEN / African Sovereign Compute | [ukadike.github.io/Small-Systems-Lab/aen-sovereign-compute](https://ukadike.github.io/Small-Systems-Lab/aen-sovereign-compute/) | [Small-Systems-Lab/aen-sovereign-compute](https://github.com/ukadike/Small-Systems-Lab/tree/main/aen-sovereign-compute) | Active public research |
 | Echo | [ukadike.github.io/Echo](https://ukadike.github.io/Echo/) | [github.com/ukadike/Echo](https://github.com/ukadike/Echo) | Live |
 | Umada | [ukadike.github.io/Umada](https://ukadike.github.io/Umada/) | [github.com/ukadike/Umada](https://github.com/ukadike/Umada) | Live |
 | Accessible by Design (Accessibility Audit Lab) | No live site yet | [github.com/ukadike/accessible-by-design-prototyping](https://github.com/ukadike/accessible-by-design-prototyping) | Toolkit in development, no GitHub Pages deployment found |
