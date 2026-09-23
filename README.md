@@ -16,13 +16,16 @@ SSL builds systems around five linked practices:
 
 ## Branches
 
-Six branches, in different stages of development. See also [`docs/branches.md`](docs/branches.md).
+Seven branches, in different stages of development. See also [`docs/branches.md`](docs/branches.md).
 
 ### [Omoluabi](https://ukadike.github.io/omoluabi/)
 Editorial intelligence for civic documentation, consent-aware reporting, provenance, accessibility, and human-governed publishing. Repo: [github.com/ukadike/omoluabi](https://github.com/ukadike/omoluabi). Its first live implementation is [Omoluabi News](https://ukadike.github.io/omoluabi-news/) ([repo](https://github.com/ukadike/omoluabi-news)), an accessible newsroom with a visible editorial reasoning engine.
 
 ### [Earth Sensors Lab](https://ukadike.github.io/Earth-Sensors-Lab/)
 Accessible STEAM observatory for young people, families, educators, gardens, climate sensing, and interstellar curiosity. Repo: [github.com/ukadike/Earth-Sensors-Lab](https://github.com/ukadike/Earth-Sensors-Lab).
+
+### [AEN / African Sovereign Compute](https://ukadike.github.io/Small-Systems-Lab/aen-sovereign-compute/)
+Energy, materials, power electronics, thermal systems, edge compute, and African-controlled computational infrastructure. AEN investigates a modular, DC-forward architecture spanning small commercial deployments through distributed and regional compute. Research is published iteratively inside this repository, including dated notes that separate industrial evidence from Small Systems Lab hypotheses.
 
 ### [ECHO](https://ukadike.github.io/Echo/)
 AI governance through accessibility, human agency, and public learning. ECHO's core doctrine is **“Access is a condition of correctness.”** Its Accessibility-Constrained Intelligence (ACI) framework investigates how accessibility can operate as a requirement across AI training, preference and reward systems, evaluation/TEVV, agent behavior, deployment gates, oversight, and redress — rather than as an accommodation added after a system is built. Repo: [github.com/ukadike/Echo](https://github.com/ukadike/Echo).
