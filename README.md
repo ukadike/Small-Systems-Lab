@@ -4,6 +4,8 @@
 
 Founded by **Adekemi (Kemi) Sijuwade Ukadike**, SSL treats care, documentation, rule-based intelligence, and accessibility as infrastructure.
 
+**Quick navigation:** [Live site](https://ukadike.github.io/Small-Systems-Lab/) · [Branches](index.html#branches) · [Site map](site-map.html) · [Schema card](SCHEMA_CARD.md) · [Repository](https://github.com/ukadike/Small-Systems-Lab)
+
 ## Core Method
 
 SSL builds systems around five linked practices:
@@ -16,28 +18,34 @@ SSL builds systems around five linked practices:
 
 ## Branches
 
-Seven branches, in different stages of development. See also [`docs/branches.md`](docs/branches.md).
+Nine branches connect SSL's civic, ecological, accessibility, governance, food, memory, and speculative practices. Their pages and repositories are linked below; work without a public destination is marked in development.
 
 ### [Omoluabi](https://ukadike.github.io/omoluabi/)
-Editorial intelligence for civic documentation, consent-aware reporting, provenance, accessibility, and human-governed publishing. Repo: [github.com/ukadike/omoluabi](https://github.com/ukadike/omoluabi). Its first live implementation is [Omoluabi News](https://ukadike.github.io/omoluabi-news/) ([repo](https://github.com/ukadike/omoluabi-news)), an accessible newsroom with a visible editorial reasoning engine.
+Editorial intelligence for civic documentation, consent-aware reporting, provenance, accessibility, and human-governed publishing. [Repository](https://github.com/ukadike/omoluabi) · First live implementation: [Omoluabi News](https://ukadike.github.io/omoluabi-news/) ([repository](https://github.com/ukadike/omoluabi-news)).
+
+### [UMADA](https://ukadike.github.io/Umada/)
+Speculative worldbuilding, future history, systems collapse, language memory, chimeras, cyborgs, civic signs, and the Omoluabi device as narrative artifact. [Repository](https://github.com/ukadike/Umada).
+
+### [Accessible by Design](https://github.com/ukadike/accessible-by-design-prototyping)
+Accessibility research, audits, tooling, curriculum, documentation, and public-facing design principles. Accessibility is also a cross-cutting condition across SSL branches.
 
 ### [Earth Sensors Lab](https://ukadike.github.io/Earth-Sensors-Lab/)
-Accessible STEAM observatory for young people, families, educators, gardens, climate sensing, and interstellar curiosity. Repo: [github.com/ukadike/Earth-Sensors-Lab](https://github.com/ukadike/Earth-Sensors-Lab).
-
-### [AEN / African Sovereign Compute](https://ukadike.github.io/Small-Systems-Lab/aen-sovereign-compute/)
-Energy, materials, power electronics, thermal systems, edge compute, and African-controlled computational infrastructure. AEN investigates a modular, DC-forward architecture spanning small commercial deployments through distributed and regional compute. Research is published iteratively inside this repository, including dated notes that separate industrial evidence from Small Systems Lab hypotheses.
+Accessible STEAM observatory for young people, families, educators, gardens, environmental sensing, and interstellar curiosity. [Repository](https://github.com/ukadike/Earth-Sensors-Lab).
 
 ### [ECHO](https://ukadike.github.io/Echo/)
-AI governance through accessibility, human agency, and public learning. ECHO's core doctrine is **“Access is a condition of correctness.”** Its Accessibility-Constrained Intelligence (ACI) framework investigates how accessibility can operate as a requirement across AI training, preference and reward systems, evaluation/TEVV, agent behavior, deployment gates, oversight, and redress — rather than as an accommodation added after a system is built. Repo: [github.com/ukadike/Echo](https://github.com/ukadike/Echo).
+AI governance through accessibility, human agency, and public learning. Its core doctrine is **“Access is a condition of correctness.”** [Repository](https://github.com/ukadike/Echo).
+
+### [AEN / African Sovereign Compute](https://ukadike.github.io/Small-Systems-Lab/aen-sovereign-compute/)
+Energy, materials, power electronics, storage, thermal systems, edge compute, and African-controlled computational infrastructure. [Research files](aen-sovereign-compute/).
+
+### [Ìjóyà](https://github.com/ukadike/Ijoya)
+Soft robotics and garden systems exploring shared function, touch, wind, and interdependence. [Repository](https://github.com/ukadike/Ijoya).
+
+### Ìrántí
+Wearable memory objects exploring how materials and personal artifacts can hold and carry memory. In development; no public site or repository yet.
 
 ### Ounjẹ
-Food memory, healing recipes, cultural documentation, and cooking as archive. In development — no repo or site yet.
-
-### [Umada](https://ukadike.github.io/Umada/)
-Speculative worldbuilding, future history, systems collapse, language memory, chimeras, cyborgs, civic signs, and the Omoluabi device as narrative artifact. Repo: [github.com/ukadike/Umada](https://github.com/ukadike/Umada).
-
-### Accessible by Design
-Accessibility research, audits, tooling, documentation, and public-facing design principles. No live site yet. Repo: [github.com/ukadike/accessible-by-design-prototyping](https://github.com/ukadike/accessible-by-design-prototyping).
+Food memory, healing recipes, cultural documentation, and cooking as archive. In development; no public site or repository yet.
 
 ## System Questions
 
@@ -79,6 +87,7 @@ Every SSL project asks:
 ├── INDEX.md
 ├── SCHEMA_CARD.md
 ├── index.html
+├── site-map.html
 ├── site.css
 ├── variables.css
 ├── .nojekyll
