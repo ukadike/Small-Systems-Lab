@@ -8,6 +8,7 @@ Small Systems Lab (SSL) ecosystem. Start at [`README.md`](README.md) if you have
 
 - [`README.md`](README.md) — project overview, method, branches, repository structure
 - [`index.html`](index.html) — the live GitHub Pages site (hub homepage)
+- [`site-map.html`](site-map.html) — public-facing directory of branches, sites, repositories, and lab resources
 - [`SCHEMA_CARD.md`](SCHEMA_CARD.md) — quick-orientation card for contributors and code agents
 - [`docs/REPO_AUDIT.md`](docs/REPO_AUDIT.md) — structure/navigation/accessibility audit
 - [`site.css`](site.css) — layout glue (locked visual system: layout only)
@@ -30,6 +31,8 @@ Small Systems Lab (SSL) ecosystem. Start at [`README.md`](README.md) if you have
 
 ## The Small Systems Lab ecosystem
 
+The [public site map](https://ukadike.github.io/Small-Systems-Lab/site-map.html) links every branch and resource.
+
 Small Systems Lab is the hub. Every branch below links back to
 [ukadike.github.io/Small-Systems-Lab](https://ukadike.github.io/Small-Systems-Lab/) from
 its own site footer.
@@ -39,6 +42,8 @@ its own site footer.
 | Omoluabi | [ukadike.github.io/omoluabi](https://ukadike.github.io/omoluabi/) | [github.com/ukadike/omoluabi](https://github.com/ukadike/omoluabi) | Live |
 | — Omoluabi News (Omoluabi sub-project) | [ukadike.github.io/omoluabi-news](https://ukadike.github.io/omoluabi-news/) | [github.com/ukadike/omoluabi-news](https://github.com/ukadike/omoluabi-news) | Live — first implementation of the Omoluabi model |
 | Earth Sensors Lab | [ukadike.github.io/Earth-Sensors-Lab](https://ukadike.github.io/Earth-Sensors-Lab/) | [github.com/ukadike/Earth-Sensors-Lab](https://github.com/ukadike/Earth-Sensors-Lab) | Live |
+| Ìjóyà | In development | [github.com/ukadike/Ijoya](https://github.com/ukadike/Ijoya) | Repository |
+| Ìrántí | In development | No public repository yet | In development |
 | AEN / African Sovereign Compute | [ukadike.github.io/Small-Systems-Lab/aen-sovereign-compute](https://ukadike.github.io/Small-Systems-Lab/aen-sovereign-compute/) | [Small-Systems-Lab/aen-sovereign-compute](https://github.com/ukadike/Small-Systems-Lab/tree/main/aen-sovereign-compute) | Active public research |
 | Echo | [ukadike.github.io/Echo](https://ukadike.github.io/Echo/) | [github.com/ukadike/Echo](https://github.com/ukadike/Echo) | Live |
 | Umada | [ukadike.github.io/Umada](https://ukadike.github.io/Umada/) | [github.com/ukadike/Umada](https://github.com/ukadike/Umada) | Live |
