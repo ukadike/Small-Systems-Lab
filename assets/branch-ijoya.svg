@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc"><title id="title">Ìjóyà shared garden system</title><desc id="desc">Two flexible stems cross and exchange motion through small tactile connection points.</desc><rect width="320" height="180" fill="#f5f1e6"/><g fill="none" stroke="#292720" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M55 132c50-7 48-77 105-83 42-4 49 80 105 83"/>
+ <path d="M55 59c50 7 48 77 105 83 42 4 49-80 105-83"/>
+ <path d="M94 94q14-15 28 0t28 0m48 0q14-15 28 0t28 0" stroke="#98784e"/>
+ <circle cx="160" cy="90" r="14" fill="#e3d5bb"/><circle cx="160" cy="90" r="4" fill="#98784e"/>
+ <circle cx="103" cy="65" r="5" fill="#98784e"/><circle cx="217" cy="115" r="5" fill="#98784e"/>
+ <path d="M84 147h152"/>
+ </g></svg>

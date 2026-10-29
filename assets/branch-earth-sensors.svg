@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc"><title id="title">Earth Sensors Lab</title><desc id="desc">A seedling rises from measured soil beside a sensing probe and a small sun.</desc><rect width="320" height="180" fill="#f5f1e6"/><g fill="none" stroke="#292720" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M45 137h230"/><path d="M72 143q18-17 38 0t38 0 38 0 38 0 38 0"/>
+ <path d="M159 132V75"/><path d="M159 99q-37 0-38-31 31-1 38 31ZM159 84q4-35 37-36 1 32-37 36Z"/>
+ <path d="M220 64v65"/><path d="M211 129h18"/><circle cx="220" cy="61" r="7" fill="#e3d5bb"/>
+ <circle cx="83" cy="53" r="17" stroke="#98784e"/><path d="M83 26v-8m0 70v-8m-27-27h-8m78 0h-8m-46-19-6-6m50 50-6-6m0-38 6-6m-50 50 6-6" stroke="#98784e"/>
+ <path d="M96 116h29m-31 9h20m55 1h27"/>
+ </g></svg>

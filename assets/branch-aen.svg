@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc"><title id="title">AEN sovereign compute</title><desc id="desc">A connected compute module sits within an energy grid, with a sun and power path.</desc><rect width="320" height="180" fill="#f5f1e6"/><g fill="none" stroke="#292720" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+ <rect x="103" y="45" width="114" height="88" rx="4"/><rect x="122" y="62" width="76" height="54" fill="#e3d5bb"/>
+ <path d="M139 90h17l-7 14 31-25h-18l7-13" stroke="#98784e" stroke-width="3"/>
+ <path d="M120 31v14m24-14v14m24-14v14m24-14v14m24-14v14M120 133v14m24-14v14m24-14v14m24-14v14m24-14v14"/>
+ <path d="M88 59H62v62h26m144-62h27v62h-27" stroke="#98784e"/>
+ <circle cx="65" cy="42" r="13"/><path d="M65 21v-7m0 49v-7m-21-14h-7m49 0h-7m-29-15-5-5m35 35-5-5m0-30 5-5m-35 35 5-5" stroke="#98784e"/>
+ <path d="M65 121v22h28m134 0h28v-22"/>
+ </g></svg>

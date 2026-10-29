@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc"><title id="title">UMADA storyworld</title><desc id="desc">A horizon arch, a moon, and a layered speculative landscape.</desc><rect width="320" height="180" fill="#f5f1e6"/><g fill="none" stroke="#292720" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M55 143h210"/><path d="M76 143V87a84 84 0 0 1 168 0v56"/>
+ <path d="M91 143v-37l24-23 24 23v37M177 143V95l22-21 22 21v48"/>
+ <circle cx="211" cy="48" r="13" stroke="#98784e"/><path d="M211 27v-8m0 58v-8m-21-21h-8m58 0h-8m-36-15-6-6m42 42-6-6m0-30 6-6m-42 42 6-6" stroke="#98784e"/>
+ <path d="M60 156q27-12 54 0t54 0 54 0 44 0"/>
+ </g></svg>

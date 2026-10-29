@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc"><title id="title">Small Systems Lab ecosystem</title><desc id="desc">A central circle connects with nine satellite marks, representing the interdependent SSL branches.</desc><rect width="320" height="180" fill="#f5f1e6"/><g fill="none" stroke="#292720" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+ <ellipse cx="160" cy="90" rx="100" ry="56" stroke="#98784e" stroke-width="1.5" stroke-dasharray="4 8"/>
+ <g stroke="#777064" stroke-width="1.7">
+ <path d="M160 90 74 53M160 90 160 31M160 90 246 53M160 90 270 90M160 90 246 127M160 90 160 149M160 90 74 127M160 90 50 90M160 90 98 29"/>
+ </g>
+ <g fill="#f5f1e6" stroke="#292720">
+ <circle cx="74" cy="53" r="9"/><circle cx="160" cy="31" r="9"/><circle cx="246" cy="53" r="9"/>
+ <circle cx="270" cy="90" r="9"/><circle cx="246" cy="127" r="9"/><circle cx="160" cy="149" r="9"/>
+ <circle cx="74" cy="127" r="9"/><circle cx="50" cy="90" r="9"/><circle cx="98" cy="29" r="7"/>
+ </g>
+ <circle cx="160" cy="90" r="25" fill="#e6dcc7" stroke="#292720" stroke-width="3"/>
+ <text x="160" y="95" text-anchor="middle" fill="#292720" stroke="none" font-family="Georgia,serif" font-size="16" letter-spacing="1">SSL</text>
+ <path d="M126 90h-8m84 0h-8M160 56v-8m0 84v8" stroke="#98784e"/>
+ <circle cx="160" cy="90" r="41" stroke="#98784e" stroke-width="1"/>
+ </g></svg>

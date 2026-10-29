@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc"><title id="title">Accessible by Design</title><desc id="desc">An open doorway, a continuous ramp, and clear access marks represent accessibility built into design.</desc><rect width="320" height="180" fill="#f5f1e6"/><g fill="none" stroke="#292720" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M99 145V47h91v98"/><path d="M116 145V64h58v81"/><circle cx="161" cy="103" r="3" fill="#98784e"/>
+ <path d="M53 145h48l28-23h69l28 23h40"/><path d="M74 145v-11m14 11v-11m14 11v-11" stroke="#98784e"/>
+ <circle cx="221" cy="55" r="12"/><path d="M221 47v16m-8-8h16" stroke="#98784e"/>
+ <path d="M62 49q10-12 20 0t20 0M64 70q10-12 20 0" stroke="#98784e"/>
+ </g></svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc"><title id="title">ECHO accessibility and governance</title><desc id="desc">Concentric signal lines meet a central point, symbolizing listening, access, and accountable AI.</desc><rect width="320" height="180" fill="#f5f1e6"/><g fill="none" stroke="#292720" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+ <circle cx="157" cy="90" r="37"/><circle cx="157" cy="90" r="18" fill="#e3d5bb"/>
+ <path d="M157 79v22m-11-11h22" stroke="#98784e"/>
+ <path d="M91 61q-26 29 0 58M75 47q-39 43 0 86M223 61q26 29 0 58M239 47q39 43 0 86"/>
+ <path d="M45 90h16m198 0h16" stroke="#98784e"/>
+ <circle cx="45" cy="90" r="4" fill="#98784e"/><circle cx="275" cy="90" r="4" fill="#98784e"/>
+ </g></svg>
